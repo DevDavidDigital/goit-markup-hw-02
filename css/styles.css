@@ -9,10 +9,18 @@ button {
     cursor: pointer;
 }
 
+button :hover {
+    color: var(--cloud);
+}
+
 /* header section */
 
 a {
     text-decoration: none;
+}
+
+a :hover {
+    color: var(--cloud);
 }
 
 .text-logo-header {
