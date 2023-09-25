@@ -3,14 +3,17 @@
     --navy-blue: #2e2f42;
     --white: #ffff;
     --cloud: #f4f4fd;
+    --red: #ff0000;
 }
 
 button {
     cursor: pointer;
+    background-color: var(--white);
+    color: var(--iris);
 }
 
-button :hover {
-    color: var(--cloud);
+button:hover {
+    color: var(--red);
 }
 
 /* header section */
@@ -19,8 +22,8 @@ a {
     text-decoration: none;
 }
 
-a :hover {
-    color: var(--cloud);
+a:hover {
+    color: var(--red);
 }
 
 .text-logo-header {
